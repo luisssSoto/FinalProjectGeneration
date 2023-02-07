@@ -1,3 +1,8 @@
+midorypl
+Yukie Midory Perez Ledezma
+midoryp@gmail.com
+========
+
 soy el archivo "leame"
 oscarcervantes
 oscarcervantesgeneration
