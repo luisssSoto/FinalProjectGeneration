@@ -1,8 +1,3 @@
-Pendientes:
-Terminar el archivo planificacion
-Terminar Figma
-Terminar Trello
-Terminar ejercicios que dejo vic en github
 
 soy el archivo "leame"
 ------luisssSoto
