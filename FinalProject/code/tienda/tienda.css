@@ -1,10 +1,43 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.titles{
+    font-family: 'Noto Serif Tamil', serif;
+    color: #658864;
+    font-size: 60px;
+}
 #buscador{
     text-align: center;
+}
+.buttons{
+    font-family: 'Cabin', sans-serif;
 }
 
 .subtitle{
     color: #658864;
 }
+#containerSection{
+    margin: 40px;
+    border: 20px;
+    padding: auto;
+}
+.tarjetas{
+    margin: 10px;
+    border-style: solid;
+    padding: 20px;
+    float: left;
+
+}
+.tarjetasImg{
+    width: 190px;
+    text-align: center;
+}
 nav{
     text-align: center;
 }
+
+/* pallete colors
+#658864
+#B7B78A
+#DDDDDD
+#EEEEEE */
