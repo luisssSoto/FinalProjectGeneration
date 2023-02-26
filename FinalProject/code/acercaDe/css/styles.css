@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    color: white;
+}
+
+
+.dos{
+    color: #658863;
+    padding: 150px;
+    background-color: white;
+    color: #658863;
+    font-size: xx-large;
+
+}
+
+
+.tres{
+    background-color: #dddddd;
+    padding: 150px;
+    color: #658863;
+    font-size: xx-large;
+}
+
+
+.cuatro{
+    background-color: #658863;
+    padding: 150px;
+    color: #dddddd;
+    font-size: xx-large;
+    
+}
+
+
+.nueseq{
+    text-align: center;
+    background-color: white;
+    color: #658863;
+    font-size: xx-large;
+    padding: 35px;
+    
+}
+
+.lorem{
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+}
