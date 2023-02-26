@@ -1,0 +1,23 @@
+body{background-color: white;
+}
+
+section{
+  margin-left: 5%; float: left;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+td {font-family: 'Times New Roman', Times, serif;}
+
+aside{float: left;
+margin-left: 20%;}
+
+form{background-color: #B7B78A;}
+
+#comentario{height: 100px; width: 240px; }
+#labelcomentario{float: left;}
+hr{border-width: 20px;
+border-style: solid;
+border-color: #658864;}
