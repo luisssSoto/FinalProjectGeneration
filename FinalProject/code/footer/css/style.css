@@ -23,35 +23,31 @@ span{
 
 .fb{
     background: blue;
-    padding: 8px;
+    padding: 10px;
     border-radius: 50px;
     color: white;
 }
-
 .tw{
     background: rgb(20, 163, 219);
-    padding: 8px;
+    padding: 10px;
     border-radius: 50px;
     color: white;
 }
-
 .in{
     background: rgb(232, 76, 208);
-    padding: 8px;
+    padding: 10px;
     border-radius: 50px;
     color: white;
 }
-
 .li{
     background: rgb(4, 4, 112);
-    padding: 8px;
+    padding: 10px;
     border-radius: 50px;
     color: white;
 }
-
 .yt{
     background: rgb(239, 58, 58);
-    padding: 8px;
+    padding: 10px;
     border-radius: 50px;
     color: white;
 }
@@ -104,11 +100,18 @@ button{
     color: white;
     font-size: 18px;
 }
+.varios{
+    text-align: center;
+    justify-content: space-around;
+    display: flex center;
+
+}
 .logosDePago{
+    
     justify-content: center;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
 
 }
 .derechos{
