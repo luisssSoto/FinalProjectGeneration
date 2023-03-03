@@ -1,0 +1,110 @@
+/* Globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: white
+}
+/* Nav Bar */
+header{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px 10%;
+}
+
+header .logo{
+    cursor: pointer;
+}
+
+header .logo img{
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+header .logo img:hover{
+    transform: scale(1.2);
+}
+
+header .nav-links{
+    list-style: none;
+}
+
+header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;  
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+header .nav-links {
+    font-size: 1000;
+    color: #658864;
+    text-decoration: none;
+}
+
+header .btn button:hover{
+    background-color: #658864;
+    color:#b7b78a;
+    transform: scale(1.1);
+}
+
+header .nav-links li:hover{
+    color: #b7b78a;
+}
+
+header .btn button{
+    font-weight: 700;
+    color: #eaeeea;
+    padding: 6px 25px;
+    background: #658864;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.btn button{
+    color: #eaeeea;
+    padding: 6px 25px;
+    background: #658864;
+    border: none;
+    border-radius: 50px;
+}
+
+.section-{
+    padding: 100px 0;
+}
+/* Aqui termina el Nav-Bar */
+
+
+
+/* Aqui empieza el titulo de categoria de productos */
+aside{
+    font-family: 'Cabin', sans-serif;
+}
+/* Aqui empieza el titulo de categoria de productos */
+
+
+
+
+/* Aqui empieza la categoria de productos */
+#tarjetas:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+#catalogo{
+    font-family: 'Cabin', sans-serif;
+}
+/* Aqui termina la categoria de productos */
+
