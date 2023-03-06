@@ -1,5 +1,13 @@
 /*Containe*/
 
+@font-face{
+    font-family:'Bitter';
+src: url('C:\Users\Oscar\generation\ch23\labandagangrena\FinalProject\FinalProject\code\blogActualizado\fuentes\Bitter\Bitter-VariableFont_wght.ttf');
+}
+
+body{
+    font-family: 'Bitter';
+}
 .container-content{
     width: 1200px;
     margin: auto;
