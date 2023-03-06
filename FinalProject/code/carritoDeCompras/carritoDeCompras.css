@@ -87,14 +87,8 @@ header .btn button{
 }
 /* Aqui termina el Nav-Bar */
 
-
-/* Aqui empieza la categoria de productos */
-#tarjetas:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
-}
-#catalogo{
+.pedido {
+    margin: 1em;
+    text-align: center;
     font-family: 'Cabin', sans-serif;
 }
-/* Aqui termina la categoria de productos */
-
