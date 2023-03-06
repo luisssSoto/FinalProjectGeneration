@@ -1,3 +1,99 @@
+/*NAVBAR*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif Tamil', serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: #eeeeee;    
+}
+
+.header{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 20px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;  
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links {
+    font-size: 1000;
+    color: #658864;
+    text-decoration: none;
+}
+
+.header .btn button:hover{
+    background-color: #658864;
+    color:#b7b78a;
+    transform: scale(1.1);
+}
+
+.header .nav-links li:hover{
+    color: #b7b78a;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #eaeeea;
+    padding: 6px 25px;
+    background: #658864;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+.btn button{
+    color: #eaeeea;
+    padding: 6px 25px;
+    background: #658864;
+    border: none;
+    border-radius: 50px;
+}
+
+.section-{
+    padding: 100px 0;
+}
+
+/*CHECKOUT*/
 body {
     background-color: #dddddd;
     background-size: cover;
@@ -5,4 +101,131 @@ body {
 
 .container {
     background: white;
+}
+
+
+/*FOOTER*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.pie{
+    background: #EEEEEE;
+}
+img{
+    width: 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+span{
+    font-size: 23px;
+}
+
+.fb{
+    background: blue;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+.tw{
+    background: rgb(20, 163, 219);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+.in{
+    background: rgb(232, 76, 208);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+.li{
+    background: rgb(4, 4, 112);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+.yt{
+    background: rgb(239, 58, 58);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.logotipo{
+    font-size: 18px;
+    color: white;
+}
+
+/*added*/
+.name{
+    font-size:xx-large;
+    color: #658863;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.section div{
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    color: black;
+    padding: 10px 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background: solid 2px white;
+    padding: 10px 20px;
+}
+button{
+    padding: 10px 20px;
+    background: #658864;
+    color: white;
+    font-size: 18px;
+}
+.varios{
+    text-align: center;
+    justify-content: space-around;
+    display: flex center;
+
+}
+.logosDePago{
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+.derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #EEEEEE;
+    color: black;
 }

@@ -1,52 +1,47 @@
-body{
-    background-color: white;
+body {
+  background-color: white;
+  font-family: "Cabin", sans-serif;
 }
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.containeracercadeCBP {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  color: white;
+}
+.encabezadoCBP {
     text-align: center;
-    color: white;
-}
-
-
-.dos{
+    font-size: 5ch;
+    font-family: "Cabin", sans-serif;
     color: #658863;
-    padding: 150px;
-    background-color: white;
-    color: #658863;
-    font-size: xx-large;
-
 }
-
-
-.tres{
-    background-color: #dddddd;
-    padding: 150px;
-    color: #658863;
-    font-size: xx-large;
+.dosCBP {
+  color: #658863;
+  padding: 150px;
+  background-color: white;
+  color: #658863;
+  font-size: xx-large;
 }
-
-
-.cuatro{
-    background-color: #658863;
-    padding: 150px;
-    color: #dddddd;
-    font-size: xx-large;
-    
+.tresCBP {
+  background-color: #dddddd;
+  padding: 150px;
+  color: #658863;
+  font-size: xx-large;
 }
-
-
-.nueseq{
-    text-align: center;
-    background-color: white;
-    color: #658863;
-    font-size: xx-large;
-    padding: 35px;
-    
+.cuatroCBP {
+  background-color: #658863;
+  padding: 150px;
+  color: #dddddd;
+  font-size: xx-large;
 }
-
-.lorem{
-    background-color: white;
-    color: black;
-    font-size: xx-large;
+.nueseqCBP {
+  text-align: center;
+  background-color: white;
+  color: #658863;
+  font-size: xx-large;
+  padding: 35px;
+}
+.descripCBP {
+  background-color: white;
+  color: rgb(73, 71, 71);
+  font-size: xx-large;
 }

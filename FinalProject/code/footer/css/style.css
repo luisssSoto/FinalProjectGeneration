@@ -1,123 +1,109 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Cabin', sans-serif;
+body {
+  font-family: "Cabin", sans-serif;
 }
-.pie{
-    background: #EEEEEE;
+.footerCBP {
+  background: #eeeeee;
+  font-family: 'Cabin', sans-serif;
 }
-img{
-    width: 40px;
+img {
+  width: 40px;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.logoCBP {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-span{
-    font-size: 23px;
+span {
+  font-size: 23px;
 }
-
-.fb{
-    background: blue;
-    padding: 10px;
-    border-radius: 50px;
-    color: white;
+.fb {
+  background: #658864;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
 }
-.tw{
-    background: rgb(20, 163, 219);
-    padding: 10px;
-    border-radius: 50px;
-    color: white;
+.tw {
+  background: #658864;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
 }
-.in{
-    background: rgb(232, 76, 208);
-    padding: 10px;
-    border-radius: 50px;
-    color: white;
+.in {
+  background: #658864;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
 }
-.li{
-    background: rgb(4, 4, 112);
-    padding: 10px;
-    border-radius: 50px;
-    color: white;
+.li {
+  background: #658864;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
 }
-.yt{
-    background: rgb(239, 58, 58);
-    padding: 10px;
-    border-radius: 50px;
-    color: white;
+.yt {
+  background: #658864;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center;
+.headerCBP {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
 }
-.logotipo{
-    font-size: 18px;
-    color: white;
+.nameCBP {
+  font-size: xx-large;
+  color: #658863;
 }
-
-/*added*/
-.name{
-    font-size:xx-large;
-    color: #658863;
+.sectionCBP {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
 }
-.section{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
+.sectionCBP div {
+  display: flex;
+  flex-direction: column;
 }
-.section div{
-    display: flex;
-    flex-direction: column;
+div h3 {
+  color: #658864;
+  padding: 10px 0;
 }
-div h2{
-    color: black;
-    padding: 10px 0;
+a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
 }
-a{
-    color: black;
-    text-decoration: none;
-    padding: 5px;
+.formFooterCBP {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.inputCBP {
+  background: solid 2px white;
+  padding: 10px 20px;
 }
-input{
-    background: solid 2px white;
-    padding: 10px 20px;
+.buttonCBP {
+  padding: 10px 20px;
+  background: #658864;
+  color: white;
+  font-size: 18px;
 }
-button{
-    padding: 10px 20px;
-    background: #658864;
-    color: white;
-    font-size: 18px;
+.logosDePagoCBP {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
-.varios{
-    text-align: center;
-    justify-content: space-around;
-    display: flex center;
-
-}
-.logosDePago{
-    
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-
-}
-.derechos{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background: #EEEEEE;
-    color: black;
+.derechosCBP {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #eeeeee;
+  color: #658854;
 }
