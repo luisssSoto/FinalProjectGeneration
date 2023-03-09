@@ -1,3 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+  width: auto;
+  height:80px;
+}
+nav{
+  background-color: #eeeeee;
+}
+
+.btn{
+  background-color: #658864;
+  color: #ffffff;
+}
+
+.tamil{
+  font-family: 'Lexend', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.cabin{
+  font-family: 'Lexend', sans-serif;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  padding: 0 20px;
+  color: #658864;
+  transition: 0.3s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #B7B78A;
+}
+
+.nav-item{
+  margin: 17px;
+}
+/* inisio sesion */
 :root {
   --prin: #658864;
   --sec: #B7B78A;
@@ -29,23 +72,8 @@
   font-size: 48px;
 }
 
-.btn{
-  background-color: #658864;
-  color: #ffffff;
-}
-
 .lol{
   color: #658864;
-}
-
-.tamil{
-  font-family: 'Lexend', sans-serif;
-  font-weight: bold;
-}
-
-.cabin{
-  font-family: 'Lexend', sans-serif;
-  font-weight: bold;
 }
 
 .linea{
