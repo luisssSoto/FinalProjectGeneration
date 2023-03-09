@@ -6,29 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navbar final project</title>
+    <!--Iconos pagina principal-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./style.css">
+    <!--footer FONT AWESOME PARA LOS LOGOS DE REDES SOCIALES-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
 </head>
+<header class="header">
+    <nav class="navbar navbar-expand-lg py-3 tamil">
+        <div class="container">
+            <!-- icono -->
+            <a class="navbar-brand justify-content-center" href="">
+                <img class="logo" src="./img/logo1.png" alt="">
+            </a>
 
-<body>
-    <header class="header">
-        <div class="logo">
-            <img src="../navbar - pagina principal/img/logo1.png" alt="logo de la marca">
+            <!-- boton del menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- elementos del menu colapsable -->
+              <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-md-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tienda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Carrito</a></li>
+                </ul>
+                <div>
+                    <a href="#" class="btn"><button style="font-size: 25px;">Inicia sesión</button></a>
+                </div>                   
+              </div>
         </div>
-        <nav class="nav-links">
-            <ul>
-                <li><a href="#"></a>INICIO</li>
-                <li><a href="#"></a>TIENDA</li>
-                <li><a href="#"></a>BLOG</li>
-                <li><a href="#"></a>NOSOTROS</li>
-                <li><a href="#"></a>CONTACTO</li>
-                <li><a href="#"></a>CARRITO</li>
-            </ul>
-        </nav>
-        <a href="#" class="btn"><button>Inicia sesión</button></a>
-    </header>
+    </nav>
+</header>
+<body>
+    
     <!--Aquí empieza el carousel-->
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -41,7 +68,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../navbar - pagina principal/img/img-home1.png" class="d-block w-100" alt="...">
+                <img src="../img/img-home1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Siente</h5>
                     <p>Toda una cultura en cada pieza</p>
@@ -50,7 +77,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../navbar - pagina principal/img/img-home2.png" class="d-block w-100" alt="...">
+                <img src="./img/img-home2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Diferente</h5>
                     <p>Cada pieza es única</p>
@@ -58,7 +85,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../navbar - pagina principal/img/img-home3.png" class="d-block w-100" alt="...">
+                <img src="./img/img-home3.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>A mano</h5>
                     <p>Las piezas son elaboradas por manos yucatecas.</p>
@@ -87,7 +114,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="about-img">
-                        <img src="../navbar - pagina principal/img/img-home4.png" alt="" class="img-fluid">
+                        <img src="./img/img-home4.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
@@ -177,7 +204,7 @@
                         <div class="card text center bg-white pb-2">
                             <div class="card-body text-dark">
                                 <div class="img-area mb-4">
-                                    <img src="../navbar - pagina principal/img/img-home4.png" alt="" class="img-fluid">
+                                    <img src="./img/img-home4.png" alt="" class="img-fluid">
                                 </div>
                                 <h3 class="card-title">titulo</h3>
                                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae a nobis non, adipisci labore pariatur earum ratione. Accusantium saepe nulla cupiditate sint ad impedit expedita natus libero aliquid quibusdam.</p>
@@ -189,7 +216,7 @@
                         <div class="card text center bg-white pb-2">
                             <div class="card-body text-dark">
                                 <div class="img-area mb-4">
-                                    <img src="../navbar - pagina principal/img/img-home4.png" alt="" class="img-fluid">
+                                    <img src="./img/img-home4.png" alt="" class="img-fluid">
                                 </div>
                                 <h3 class="card-title">titulo</h3>
                                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae a nobis non, adipisci labore pariatur earum ratione. Accusantium saepe nulla cupiditate sint ad impedit expedita natus libero aliquid quibusdam.</p>
@@ -201,7 +228,7 @@
                         <div class="card text center bg-white pb-2">   
                             <div class="card-body text-dark">
                                 <div class="img-area mb-4">
-                                    <img src="../navbar - pagina principal/img/img-home4.png" alt="" class="img-fluid">
+                                    <img src="./img/img-home4.png" alt="" class="img-fluid">
                                 </div>
                                 <h3 class="card-title">titulo</h3>
                                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae a nobis non, adipisci labore pariatur earum ratione. Accusantium saepe nulla cupiditate sint ad impedit expedita natus libero aliquid quibusdam.</p>
@@ -307,10 +334,42 @@
     </div>
 </section>
 
-
+    <script type="text/javascript" src="./JS/nav.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
+<!--INICIO DE FOOTER-->
+<footer>
+    <section class="footer">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">INICIO</a>
+            </li>
+            <li>
+                <a href="#">PRODUCTOS</a>
+            </li>
+            <li>
+                <a href="#">ACERCA DE NOSOTROS</a>
+            </li>
+            <li>
+                <a href="#">TERMINOS</a>
+            </li>
+            <li>
+                <a href="#">POLITICA DE PRIVACIDAD</a>
+            </li>
+            <p class="copyright">
+                Yukart @ 2023
+            </p>
+        </ul>
+    </section>
+</footer>
+<!--FIN DE FOOTER-->
 
 </html>
