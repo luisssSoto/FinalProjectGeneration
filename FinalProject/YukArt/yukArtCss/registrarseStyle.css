@@ -98,3 +98,12 @@ nav{
 .nav-item{
   margin: 17px;
 }
+/* validacion */
+
+.warnings {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #ff0000;
+  padding-top: 20px;
+}
