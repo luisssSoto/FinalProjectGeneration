@@ -9,6 +9,7 @@ body{
     font-family: 'Cabin', sans-serif;
     background-color: white
 }
+
 /* Nav Bar */
 .logo{
   width: auto;
@@ -47,6 +48,14 @@ nav{
 .nav-item{
   margin: 15px;
 }
+
+button{
+  color: #eaeeea;
+  padding: 6px 25px;
+  background: #658864;
+  border: none;
+  border-radius: 50px;
+}
 /* Aqui termina el Nav-Bar */
 
 .pedido {
@@ -54,6 +63,8 @@ nav{
     text-align: center;
     font-family: 'Cabin', sans-serif;
 }
+
+
 
 /* Aqui empieza el footer */
 .footer {
