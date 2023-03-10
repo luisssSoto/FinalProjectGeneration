@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif Tamil', serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: #eeeeee;    
+}
+
+.logo{
+  width: auto;
+  height:80px;
+}
+nav{
+  background-color: #eeeeee;
+}
+
+.btn{
+  background-color: #658864;
+  color: #ffffff;
+}
+
+.tamil{
+  font-family: 'Lexend', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.cabin{
+  font-family: 'Lexend', sans-serif;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  padding: 0 20px;
+  color: #658864;
+  transition: 0.3s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #B7B78A;
+}
+
+.nav-item{
+  margin: 15px;
+}
+
+
+
+
+.btn button{
+    color: #eaeeea;
+    padding: 6px 25px;
+    background: #658864;
+    border: none;
+    border-radius: 50px;
+}
+
+.section-{
+    padding: 100px 0;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 60 px;
+    margin: auto;
+    font-size: larger;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+
+
+.products .card-body i{
+    font-size: 50px;
+}
+
+.team .card-body i{
+    font-size: 20px;
+}
+
+.catalogo .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+/*aqui empieza footer*/
+
+  body {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    background-color: #dddddd;
+  }
+
+  .footer {
+    padding: 40px 0;
+    background-color: #658864;
+  }
+
+  .footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #B7B78A;
+  }
+
+  .footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #B7B78A;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+  }
+
+  .footer .social a:hover {
+    opacity: 0.9;
+  }
+
+  .footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+
+  .footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+
+  .footer ul li a:hover {
+    opacity: 1;
+  }
+
+  .footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #dddddd;
+  }

@@ -1,1 +1,0 @@
-Archivo para subir el blog finalizado de Oscar
