@@ -1,88 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+  width: auto;
+  height:80px;
+}
+nav{
+  background-color: #eeeeee;
+}
+
+.btn{
+  background-color: #658864;
+  color: #ffffff;
+}
+
+.tamil{
+  font-family: 'Lexend', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.cabin{
+  font-family: 'Lexend', sans-serif;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  padding: 0 20px;
+  color: #658864;
+  transition: 0.3s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #B7B78A;
+}
+
+.nav-item{
+  margin: 15px;
+}
 
 
 body{background-color: white;
 }
 
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Noto Serif Tamil', serif;
-  font-size: 15px;
-}
 
-body{
-  background-color: #eeeeee;    
-}
-
-.logo{
-width: auto;
-height:80px;
-}
-nav{
-background-color: #eeeeee;
-}
-
-.btn{
-background-color: #658864;
-color: #ffffff;
-}
-
-.tamil{
-font-family: 'Lexend', sans-serif;
-font-weight: bold;
-font-size: 25px;
-}
-
-.cabin{
-font-family: 'Lexend', sans-serif;
-font-weight: bold;
-}
-
-.navbar .nav-link {
-padding: 0 20px;
-color: #658864;
-transition: 0.3s ease;
-}
-.navbar .nav-link:hover,
-.navbar .nav-link.active {
-color: #B7B78A;
-}
-
-.nav-item{
-margin: 15px;
-}
-
-
-
-
-.btn button{
-  color: #eaeeea;
-  padding: 6px 25px;
-  background: #658864;
-  border: none;
-  border-radius: 50px;
-}
 
 
 hr.divisionmapaylodemas{border-width: 20px;
   border-style: solid;
   border-color: #658864;}
-  h2.municipionuestraubicacion{font-family: 'NotoSerifTamil';}
+ 
+  h2.municipionuestraubicacion{font-family: 'Noto Serif Tamil';}
 
 section.nuestrosdatos{
-  margin-left: 5%; float: left;
-}
-
-h2.municipionuestraubicacion{
-    font-family: sans-serif;
+  margin-left: 5%; float: left; font-family: 'Cabin';
 }
 
 
-aside{float: left;
+
+
+aside.informaciondelcliente{float: left;
 margin-left: 20%;}
 
-h2.contactenos{font-family: sans-serif;}
+h2.contactenos{font-family: 'Noto Serif Tamil';}
 
 :root {
   --prin: #658864;
