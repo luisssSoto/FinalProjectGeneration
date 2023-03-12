@@ -13,28 +13,39 @@
         <!-- icons style -->
         <script src="https://kit.fontawesome.com/7f1c8274c8.js" crossorigin="anonymous"></script>
         
-            <!-- bootstrap -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
+        <!-- font awesome -->
+         <script src="https://kit.fontawesome.com/7f1c8274c8.js" crossorigin="anonymous"></script>
+
+          <!-- link con Nav-Bar Css -->
+        <link rel="stylesheet" href="../yukArtCss/navbarStyle.css">
+
+         <!-- font Style Nav-Bar-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
+
+
+        <!-- link con Footer Css -->
+        <link rel="stylesheet" href="../yukArtCss/footerStyle.css">
+
         <!-- font styles -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Noto+Serif+Tamil:wght@100&display=swap" rel="stylesheet">
-    
-    <!--FONT AWESOME PARA LOS LOGOS DE REDES SOCIALES-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Noto+Serif+Tamil:wght@100&display=swap" rel="stylesheet">
 
 	</head>
 	<body>
-		<header>
-            <nav class="navbar navbar-expand-lg py-3 nav-tamil">
+		<!-- inicio NavBar -->
+        <header>
+            <nav class="navbar navbar-expand-lg py-3 tamil">
                 <div class="container">
                     <!-- icono -->
                     <a class="navbar-brand justify-content-center" href="">
@@ -49,21 +60,23 @@
                       <!-- elementos del menu colapsable -->
                       <div class="collapse navbar-collapse" id="menu">
                         <ul class="navbar-nav mx-md-auto">
-                            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Tienda</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../yukArtHtml/indexHome.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../yukArtHtml/indexTienda.html">Tienda</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../yukArtHtml/indexBlog.html">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../yukArtHtml/indexAcercaDe.html">Nosotros</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Carrito</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../yukArtHtml/indexCarritoDeCompras.html">Carrito<i class="fa-solid fa-cart-shopping"></i></a></li>
                         </ul>
                         <div>
-                            <a class="nav-cabin nav-link" href="#"><button type="submit" class="btnNavBar w-100 cabin">Iniciar sesión</button></a>
+                            <a class="nav-link" href="../yukArtHtml/indexInicioSesion.html"><button type="submit" class="btn w-100 cabin">Iniciar sesión</button></a>
                         </div>                   
                       </div>
                 </div>
             </nav>
+            <br/><br/>
         </header>
-        <br/><br/>
+        <!-- Final Nav-Bar -->
+
         <aside>
             <div class="row">
                 <div class="col-md-12">
@@ -100,7 +113,7 @@
                                         <td><p class="price"></p> $300</td>
                                     </tr>
                                     <tr>
-                                        <td><br/><button class="btn-add-cart">Añadir al carrito</button></td>
+                                        <td><br/><a href="../yukArtHtml/indexCarritoDeCompras.html"><button class="luisssSotoBtnAñadir">Añadir al carrito</button></a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -129,7 +142,7 @@
                                         <td><p class="price"></p> $1500</td>
                                     </tr>
                                     <tr>
-                                        <td><br/><button class="btn-add-cart">Añadir al carrito</button></td>
+                                        <td><br/><a href="../yukArtHtml/indexCarritoDeCompras.html"><button class="luisssSotoBtnAñadir">Añadir al carrito</button></a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -158,7 +171,7 @@
                                         <td><p class="price"></p> $250</td>
                                     </tr>
                                     <tr>
-                                        <td><br/><button class="btn-add-cart">Añadir al carrito</button></td>
+                                        <td><br/><a href="../yukArtHtml/indexCarritoDeCompras.html"><button class="luisssSotoBtnAñadir">Añadir al carrito</button></a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -166,7 +179,8 @@
                     </div>
                 </div>
             </div>
-             <!--INICIO DEL FOOTER-->
+             
+            <!--INICIO DEL FOOTER-->
     <section class="footer">
         <div class="social">
             <a href="#"><i class="fab fa-facebook"></i></a>
@@ -176,16 +190,16 @@
         </div>
         <ul class="list">
             <li>
-                <a href="#">INICIO</a>
+                <a href="../yukArtHtml/indexHome.html">INICIO</a>
             </li>
             <li>
-                <a href="#">PRODUCTOS</a>
+                <a href="../yukArtHtml/indexTienda.html">PRODUCTOS</a>
             </li>
             <li>
-                <a href="#">ACERCA DE NOSOTROS</a>
+                <a href="../yukArtHtml/indexAcercaDe.html">ACERCA DE NOSOTROS</a>
             </li>
             <li>
-                <a href="#">TERMINOS</a>
+                <a href="">TERMINOS</a>
             </li>
             <li>
                 <a href="#">POLITICA DE PRIVACIDAD</a>
@@ -196,6 +210,7 @@
         </ul>
     </section>
     <!--FIN DEL FOOTER-->
+    
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
             crossorigin="anonymous"></script>
