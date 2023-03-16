@@ -64,9 +64,9 @@ button{
 .contenedor .contenedor-items .item .boton-item{
   display: block;
   margin: 10px auto;
-  border: none;
-  background-color: black;
-  color: #fff;
+  border: solid black;
+  background-color: #B7B78A;
+  color: black;
   padding: 5px 15px;
   border-radius: 5px;
   cursor: pointer;

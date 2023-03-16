@@ -101,6 +101,16 @@ aside .tituloCatalogo{
 #catalogo{
   font-family: 'Cabin', sans-serif;
 }
+.boton-item{
+  display: block;
+  margin: 10px auto;
+  border: solid black;
+  background-color: #B7B78A;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 /* Aqui termina la categoria de productos */
 
 
