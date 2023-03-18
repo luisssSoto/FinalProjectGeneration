@@ -101,9 +101,29 @@ aside .tituloCatalogo{
 #catalogo{
   font-family: 'Cabin', sans-serif;
 }
+.boton-item{
+  display: block;
+  margin: 10px auto;
+  border: solid black;
+  background-color: #B7B78A;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 /* Aqui termina la categoria de productos */
 
 
 /* tipos de fuente */
 /* font-family: 'Noto Serif Tamil', serif;
 font-family: 'Cabin', sans-serif; */
+
+.img-fluid{
+  height: 250px;
+  width: 350px;
+}
+
+.img-area{
+  height: 250px;
+  width: 400px;
+}
