@@ -36,3 +36,13 @@ aside{
     text-decoration: none;
   }
 /* Aqui termina la categoria de productos */
+.img-fluid{
+    height: 250px;
+    width: 350px;
+  }
+  
+  .img-area{
+    height: 250px;
+    width: 400px;
+  }
+  

@@ -117,3 +117,13 @@ aside .tituloCatalogo{
 /* tipos de fuente */
 /* font-family: 'Noto Serif Tamil', serif;
 font-family: 'Cabin', sans-serif; */
+
+.img-fluid{
+  height: 250px;
+  width: 350px;
+}
+
+.img-area{
+  height: 250px;
+  width: 400px;
+}
