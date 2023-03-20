@@ -35,8 +35,16 @@ nav{
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
   color: #B7B78A;
+  transform: scale(1.1);
 }
 
 .nav-item{
   margin: 15px;
 }
+
+.btn button:hover{
+  background-color: #658864;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
