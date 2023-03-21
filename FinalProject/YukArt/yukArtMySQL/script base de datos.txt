@@ -3,12 +3,12 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 
-CREATE SCHEMA IF NOT EXISTS `yukart` DEFAULT CHARACTER SET utf8mb4;
-USE `yukart`;
+CREATE SCHEMA IF NOT EXISTS `yukart1` DEFAULT CHARACTER SET utf8mb4;
+USE `yukart1`;
 
 
 -- TABLA categorias
-CREATE TABLE IF NOT EXISTS `yukart`.`categorias`(
+CREATE TABLE IF NOT EXISTS `yukart1`.`categorias`(
   id INT NOT NULL AUTO_INCREMENT,
   nombre VARCHAR(50) NOT NULL,
   descripcion VARCHAR(255),
@@ -28,7 +28,7 @@ INSERT INTO categorias (nombre, descripcion)
     
 
 -- TABLA productos
-CREATE TABLE IF NOT EXISTS `yukart`.`productos`(
+CREATE TABLE IF NOT EXISTS `yukart1`.`productos`(
    id INT NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(50) NOT NULL,
     descripcion TEXT,
@@ -65,7 +65,7 @@ INSERT INTO productos (nombre, descripcion, precio, id_categoria) VALUES
 ('Tabla de madera', 'Tabla para picar de la mejor calidad', 300.00, 7);
 
 -- TABLA usuarios
-CREATE TABLE IF NOT EXISTS `yukart`.`usuarios`(
+CREATE TABLE IF NOT EXISTS `yukart1`.`usuarios`(
      id INT NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(50) NOT NULL,
     apellido VARCHAR(50) NOT NULL,
@@ -83,8 +83,8 @@ CREATE TABLE IF NOT EXISTS `yukart`.`usuarios`(
 ENGINE = InnoDB;
 
 
--- TABLA carrito de compras
-CREATE TABLE IF NOT EXISTS `yukart`.`carrito de compras`(
+-- TABLA carrito_de_compras
+CREATE TABLE IF NOT EXISTS `yukart1`.`carrito_de_compras`(
       id INT NOT NULL AUTO_INCREMENT,
     id_usuario INT NOT NULL,
     fecha_creacion TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -108,7 +108,7 @@ CREATE TABLE productos_carrito (
 
 
 -- TABLA checkout
-CREATE TABLE IF NOT EXISTS `yukart`.`checkout`(
+CREATE TABLE IF NOT EXISTS `yukart1`.`checkout`(
       id INT NOT NULL AUTO_INCREMENT,
     usuario_id INT NOT NULL,
     carrito_id INT NOT NULL,
@@ -118,7 +118,9 @@ CREATE TABLE IF NOT EXISTS `yukart`.`checkout`(
     hora TIME NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id),
-    FOREIGN KEY (carrito_id) REFERENCES carrito_compras(id)
+    FOREIGN KEY (carrito_id) REFERENCES carrito_de_compras(id)
 )
 
 ENGINE = InnoDB;
+
+
