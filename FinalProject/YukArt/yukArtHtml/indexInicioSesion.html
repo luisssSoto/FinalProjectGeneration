@@ -5,14 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>navbar final project</title>
+    <title>Inicio Sesion</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../yukArtCss/inicioSesionStyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
@@ -23,7 +20,7 @@
         <nav class="navbar navbar-expand-lg py-3 tamil">
             <div class="container">
                 <!-- icono -->
-                <a class="navbar-brand justify-content-center" href="">
+                <a class="navbar-brand justify-content-center" href="./indexHome.html">
                     <img class="logo" src="../yukArtImg/logo.png" alt="">
                 </a>
 
@@ -35,15 +32,15 @@
                   <!-- elementos del menu colapsable -->
                   <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav mx-md-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Tienda</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Carrito</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexHome.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexTienda.html">Tienda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexBlog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexAcercaDe.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexContacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexCarritoDeCompras.html">Carrito</a></li>
                     </ul>
                     <div>
-                        <a class="nav-link" href="#"><button type="submit" class="btn w-100 cabin">Iniciar sesión</button></a>
+                        <a class="nav-link" href="./indexInicioSesion.html"><button type="submit" class="btn w-100 cabin">Iniciar sesión</button></a>
                     </div>                   
                   </div>
             </div>
@@ -64,10 +61,12 @@
                                 <input type="username" class="form-control fd-formu border-0 cabin"
                                     placeholder="MukArt.com/usuario" name="username">
                             </div>
-                            <div class="mb-4">
+                            <div class="mb-4 wrapp-inputIS">
                                 <label for="password" class="form-label cabin">Contraseña</label>
+                                <span class="icon-eyeIS"><i class="fa-solid fa-eye-slash"></i></span>
                                 <input type="password" class="form-control fd-formu border-0 cabin" placeholder="contraseña"
                                     name="password">
+                                    
                                 <div class="text-end lol">
                                     <a href="#" class="form-text text-muted text-decoration-none"><span
                                             class="lol cabin">¿Olvidaste tu contraseña?</span></a>
@@ -75,7 +74,7 @@
                             </div>
                             <button type="submit" class="btn w-100 cabin">Iniciar sesión</button>
                             <div class="my-4 text-center cabin">
-                                <span>¿Todavía no estas registrado? <a href="#"
+                                <span>¿Todavía no estas registrado? <a href="./indexRegistrarse.html"
                                         class="form-text text-muted text-decoration-none"><span class="lol">Crea una
                                             cuenta</span></a> </span>
                             </div>
@@ -108,6 +107,7 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/ff4c41bf47.js" crossorigin="anonymous"></script>
+        <script src="../yukArtJs/verContrasenaInisioSesion.js"></script>
 </body>
 
 </html>
