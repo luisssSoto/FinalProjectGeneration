@@ -107,3 +107,35 @@ nav{
   color: #ff0000;
   padding-top: 20px;
 }
+
+/* ICONO OJO */
+.wrapp-inputRegistrar{
+  position: relative;
+}
+.icon-eye1Registrar{
+
+position: absolute;
+right: 1%;
+top: 55%;
+transform: translateY(-210%);
+cursor: pointer;
+transition: .4s ease all;
+
+}
+.icon-eye1Registrar:hover{
+color: #658864;
+}
+
+.icon-eye2Registrar{
+
+position: absolute;
+right: 1%;
+top: 55%;
+transform: translateY(170%);
+cursor: pointer;
+transition: .4s ease all;
+
+}
+.icon-eye2Registrar:hover{
+color: #658864;
+}

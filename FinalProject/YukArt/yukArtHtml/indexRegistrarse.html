@@ -11,9 +11,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ff4c41bf47.js" crossorigin="anonymous"></script>
 </head>
 
@@ -22,7 +19,7 @@
         <nav class="navbar navbar-expand-lg py-3 tamil">
             <div class="container">
                 <!-- icono -->
-                <a class="navbar-brand justify-content-center" href="">
+                <a class="navbar-brand justify-content-center" href="./indexHome.html">
                     <img class="logo" src="../yukArtImg/logo.png" alt="">
                 </a>
 
@@ -34,15 +31,15 @@
                   <!-- elementos del menu colapsable -->
                   <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav mx-md-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Tienda</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Carrito</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexHome.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexTienda.html">Tienda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexBlog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexAcercaDe.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexContacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexCarritoDeCompras.html">Carrito</a></li>
                     </ul>
                     <div>
-                        <a class="nav-link" href="#"><button type="submit" class="btn w-100 cabin">Iniciar sesión</button></a>
+                        <a class="nav-link" href="./indexInicioSesion.html"><button type="submit" class="btn w-100 cabin">Iniciar sesión</button></a>
                     </div>                   
                   </div>
             </div>
@@ -56,30 +53,40 @@
                     </div>
                     <div class="px-lg-4 py-lg-4 p-4 w-100 align-self-center">
                         <h1 class="mb-4 tamil">Regístrate</h1>
+                        <!-- Inicio de formulario -->
                         <form class="mb-5" id="form">
-                            <div class="mb-4">
+                            <div class="mb-4 ">
                                 <label for="username" class="form-label cabin">Usuario</label>
                                 <input type="username" class="form-control fd-formu border-0 cabin"
                                     placeholder="MukArt.com/usuario" name="username" id="username">
                             </div>
+
                             <div class="mb-4">
                                 <label for="email" class="form-label cabin">Email</label>
                                 <input type="email" class="form-control fd-formu border-0 cabin" placeholder="Email"
-                                    name="email" id="email">
+                                    name="email" id="email">       
                             </div>
-                            <div class="mb-4">
-                                <label for="password" class="form-label cabin">Contraseña</label>
+
+                            <div class="mb-4 wrapp-inputRegistrar">
+                                <div>
+                                    <label for="password" class="form-label cabin">Contraseña</label>
+                                <span class="icon-eye1Registrar"><i class="fa-solid fa-eye-slash"></i></span>
                                 <input type="password" class="form-control fd-formu border-0 cabin"
-                                    placeholder="contraseña" name="password" id="password">
+                                    placeholder="contraseña" name="password" id="password">    
+                                </div>
                                     <br>
-                                <label for="password2" class="form-label cabin">Confirmar Contraseña</label>
+                                <div>
+                                    <label for="password2" class="form-label cabin">Confirmar Contraseña</label>
+                                <span class="icon-eye2Registrar"><i class="fa-solid fa-eye-slash"></i></span>
                                 <input type="password" class="form-control fd-formu border-0 cabin"
                                     placeholder="Confirmar contraseña" name="password2" id="password2">
+                                </div>
+                                
                             </div>
                             <button type="submit" class="btn w-100 cabin">Registrar</button>
                             <p class="warnings" id="warnings"></p>
                             <div class="my-4 text-center cabin">
-                                <span>¿Ya tienes una cuenta? <a href="#"
+                                <span>¿Ya tienes una cuenta? <a href="./indexInicioSesion.html"
                                         class="form-text text-muted text-decoration-none"><span class="lol">Iniciar sesión</span></a> </span>
                             </div>
                         </form>
@@ -111,6 +118,7 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
         <script src="../yukArtJs/validacionFormRegistrarse.js"></script>
+        <script src="../yukArtJs/verContrasenaRegistrar.js"></script>
 </body>
 
 </html>
