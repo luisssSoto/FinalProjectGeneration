@@ -1,64 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@300;400&display=swap');
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Serif Tamil', serif;
-    font-size: 15px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-body{
-    background-color: #eeeeee;    
-}
-
-.logo{
-  width: auto;
-  height:80px;
-}
-nav{
-  background-color: #eeeeee;
-}
-
-.btn{
-  background-color: #658864;
-  color: #ffffff;
-}
-
-.tamil{
-  font-family: 'Lexend', sans-serif;
-  font-weight: bold;
-  font-size: 25px;
-}
-
-.cabin{
-  font-family: 'Lexend', sans-serif;
-  font-weight: bold;
-}
-
-.navbar .nav-link {
-  padding: 0 20px;
-  color: #658864;
-  transition: 0.3s ease;
-}
-.navbar .nav-link:hover,
-.navbar .nav-link.active {
-  color: #B7B78A;
-}
-
-.nav-item{
-  margin: 15px;
-}
-
-
-
 
 .btn button{
     color: #eaeeea;
     padding: 6px 25px;
     background: #658864;
     border: none;
-    border-radius: 50px;
+    
 }
 
 .section-{
