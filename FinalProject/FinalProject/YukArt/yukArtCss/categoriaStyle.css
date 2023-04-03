@@ -1,0 +1,48 @@
+/* Globales */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aqui empieza el titulo de categoria de productos */
+aside{
+    font-family: 'Cabin', sans-serif;
+}
+/* Aqui empieza el titulo de categoria de productos */
+
+
+/* Aqui empieza la categoria de productos */
+#tarjetas{
+    font-family: 'Cabin', sans-serif;
+}
+#tarjetas:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+#catalogo{
+    font-family: 'Cabin', sans-serif;
+}
+
+.luisssSotoBtnAñadir{
+    display: block;
+    margin: 10px auto;
+    border: solid black;
+    background-color: #B7B78A;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+/* Aqui termina la categoria de productos */
+.img-fluid{
+    height: 250px;
+    width: 350px;
+  }
+  
+  .img-area{
+    height: 250px;
+    width: 400px;
+  }
+  
