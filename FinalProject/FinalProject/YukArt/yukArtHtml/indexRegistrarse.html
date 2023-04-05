@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Regístrate YukArt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../yukArtCss/registrarseStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ff4c41bf47.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg py-3 tamil">
+            <div class="container">
+                <!-- icono -->
+                <a class="navbar-brand justify-content-center" href="./indexHome.html">
+                    <img class="logo" src="../yukArtImg/logo.png" alt="">
+                </a>
+
+                <!-- boton del menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!-- elementos del menu colapsable -->
+                  <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav mx-md-auto">
+                        <li class="nav-item"><a class="nav-link" href="./indexHome.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexTienda.html">Tienda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexBlog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexAcercaDe.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexContacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./indexCarritoDeCompras.html">Carrito</a></li>
+                    </ul>
+                    <div>
+                        <a class="nav-link" href="./indexInicioSesion.html"><button type="submit" class="btn w-100 cabin">Iniciar sesión</button></a>
+                    </div>                   
+                  </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fluid row g-0">
+            <div class="row g-0">
+                <div class="col-lg-6 d-flex flex-column align-items-end min-vh-100">
+                    <div class="px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100 mb-auto">
+                    </div>
+                    <div class="px-lg-4 py-lg-4 p-4 w-100 align-self-center">
+                        <h1 class="mb-4 tamil">Regístrate</h1>
+                        <!-- Inicio de formulario -->
+                        <form class="mb-5" id="form">
+                            <div class="mb-4 ">
+                                <label for="username" class="form-label cabin">Usuario</label>
+                                <input type="username" class="form-control fd-formu border-0 cabin"
+                                    placeholder="MukArt.com/usuario" name="username" id="username">
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="email" class="form-label cabin">Email</label>
+                                <input type="email" class="form-control fd-formu border-0 cabin" placeholder="Email"
+                                    name="email" id="email">       
+                            </div>
+
+                            <div class="mb-4 wrapp-inputRegistrar">
+                                <div>
+                                    <label for="password" class="form-label cabin">Contraseña</label>
+                                <span class="icon-eye1Registrar"><i class="fa-solid fa-eye-slash"></i></span>
+                                <input type="password" class="form-control fd-formu border-0 cabin"
+                                    placeholder="contraseña" name="password" id="password">    
+                                </div>
+                                    <br>
+                                <div>
+                                    <label for="password2" class="form-label cabin">Confirmar Contraseña</label>
+                                <span class="icon-eye2Registrar"><i class="fa-solid fa-eye-slash"></i></span>
+                                <input type="password" class="form-control fd-formu border-0 cabin"
+                                    placeholder="Confirmar contraseña" name="password2" id="password2">
+                                </div>
+                                
+                            </div>
+                            <button type="submit" class="btn w-100 cabin">Registrar</button>
+                            <p class="warnings" id="warnings"></p>
+                            <div class="my-4 text-center cabin">
+                                <span>¿Ya tienes una cuenta? <a href="./indexInicioSesion.html"
+                                        class="form-text text-muted text-decoration-none"><span class="lol">Iniciar sesión</span></a> </span>
+                            </div>
+                        </form>
+                        <p class="text-center text-muted cabin">O Regístrate con</p>
+                        <div class="d-flex justify-content-around cabin">
+                            <button type="submit" class="btn flex-grow-1 mx-2"><i
+                                    class="fa-brands fa-google lead mx-2"></i>Google</button>
+                            <button type="submit" class="btn flex-grow-1 mx-2"><i
+                                    class="fa-brands fa-facebook lead mx-2"></i>Facebook</button>
+                        </div>
+                    </div>
+                    <div class="px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100 mt-auto">
+
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-push-1 linea">
+
+                </div>
+                <div class="col-lg-5 bg d-none d-lg-block">
+                    <div class="txt">
+                        <h1 class="txt-1 tamilsec">Bienvenido</h1>
+                        <h2 class="txt-2 tamilsec">YukArt.com</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+        <script src="../yukArtJs/validacionFormRegistrarse.js"></script>
+        <script src="../yukArtJs/verContrasenaRegistrar.js"></script>
+</body>
+
+</html>

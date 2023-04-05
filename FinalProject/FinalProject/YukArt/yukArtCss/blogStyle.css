@@ -1,0 +1,27 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Bitter';
+  }
+
+  a.mes {
+    color: #658864;
+  }
+
+  a.redsos {
+    color: #658864;
+
+
+  }
+
+  body {
+    background-color: white;
+  }
