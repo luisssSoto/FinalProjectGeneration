@@ -1,33 +1,28 @@
-Ya se unio todo
+Este es el proyecto final de Generation Mexico en donde se realizo un ecommerce llamado "Yukart", dicho proyecto tenia como objetivo apoyar a los artesanos de Yucatan a vender sus productos utilizando las nuevas tecnologias, potenciando asi, a este sector a tener mejores oportunidades de ventas mejorando asi su economia.
 
-soy el archivo "leame"
-------luisssSoto
+En este proyecto participo:
 
-midorypl
 Yukie Midory Perez Ledezma
 midoryp@gmail.com
+midorypl
 ========
-
-soy el archivo "leame"
+Luis Alejandro Soto Serafin
+alejandrosotoserafin@gmail.com
+luisssSoto
 =======
------ main
-oscarcervantes
-oscarcervantesgeneration
+Oscar Cervantes
 oscarcervantes1420@gmail.com
+oscarcervantesgeneration
 =======
-
 JosueAT
 Josue Antonio Trinidad
 =======
 Elsy Noemí González Cen
 e.gonzalezcen@gmail.com
 ElsyG
-main
-main
-
 =======
 Carlos Antonio Brito Paredes
-CarlosBritoParedes
 Ing.CarlosBritoParedes@gmail.com
-
+CarlosBritoParedes
 =======
+
